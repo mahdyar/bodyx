@@ -32,9 +32,9 @@ class _MainPageState extends State<MainPage> {
   Widget build(BuildContext context) {
     return Scaffold(
         appBar: AppBar(
-          centerTitle: true,
-          title: Text(widget.title),
-        ),
+            centerTitle: true,
+            title: Text(widget.title),
+            backgroundColor: kMainColor),
         body: Column(
           crossAxisAlignment: CrossAxisAlignment.stretch,
           children: <Widget>[
