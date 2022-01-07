@@ -20,7 +20,10 @@ class ResultsPage extends StatelessWidget {
         child: Scaffold(
             appBar: AppBar(
               centerTitle: true,
-              title: Text('بادیکس | شاخص توده بدنی'),
+              title: Text(
+                'بادیکس | شاخص توده بدنی',
+              ),
+              backgroundColor: kMainColor,
             ),
             body: Column(
               mainAxisAlignment: MainAxisAlignment.spaceEvenly,
