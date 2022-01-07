@@ -14,12 +14,12 @@ const TextStyle kLabelTextStyle = TextStyle(
   color: Color(0xFF8D8E98),
 );
 
-const kNumericTextStyle = TextStyle(fontSize: 40.0, fontWeight: FontWeight.bold);
+const kNumericTextStyle =
+    TextStyle(fontSize: 40.0, fontWeight: FontWeight.bold);
 
 const kDefaultHeight = 180;
 const kMinHeight = 120.0;
 const kMaxHeight = 220.0;
-
 
 const kRabColor = Color(0xFF4C4F5E);
 const kRabSize = 54.0;
@@ -37,17 +37,10 @@ const kTitleTextStyle = TextStyle(
   fontWeight: FontWeight.bold,
 );
 const kResultTextStyle = TextStyle(
-  color: Color(0xFF24D876),
-  fontSize: 22.0,
-  fontWeight: FontWeight.bold
-);
+    color: Color(0xFF24D876), fontSize: 22.0, fontWeight: FontWeight.bold);
 
 const kBMITextStyle = TextStyle(
   fontSize: 90.0,
   fontWeight: FontWeight.bold,
 );
-const kBodyTextStyle = TextStyle(
-  fontSize: 20.0,
-  fontWeight: FontWeight.w200
-);
-
+const kBodyTextStyle = TextStyle(fontSize: 20.0, fontWeight: FontWeight.w200);

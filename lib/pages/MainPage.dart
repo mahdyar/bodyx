@@ -183,13 +183,17 @@ class _MainPageState extends State<MainPage> {
             ),
             CalculateButton(
               label: 'محاسبه',
-              doOnTap: (){
-                Calculator calculator = Calculator(height: height, weight: weight);
-                Navigator.push(context, MaterialPageRoute(builder: (context) => ResultsPage(
-                  bmiResult: calculator.calculate(),
-                  resultText: calculator.getResults(),
-                  interpretation: calculator.getInterpretation(),
-                )));
+              doOnTap: () {
+                Calculator calculator =
+                    Calculator(height: height, weight: weight);
+                Navigator.push(
+                    context,
+                    MaterialPageRoute(
+                        builder: (context) => ResultsPage(
+                              bmiResult: calculator.calculate(),
+                              resultText: calculator.getResults(),
+                              interpretation: calculator.getInterpretation(),
+                            )));
               },
             )
           ],

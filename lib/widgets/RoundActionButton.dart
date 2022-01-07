@@ -16,7 +16,7 @@ class RoundActionButton extends StatelessWidget {
         width: kRabSize,
         height: kRabSize,
       ),
-      shape:CircleBorder(),
+      shape: CircleBorder(),
       fillColor: kRabColor,
       child: Icon(
         icon,

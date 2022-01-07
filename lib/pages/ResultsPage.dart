@@ -5,8 +5,10 @@ import 'package:bodyx/widgets/CustomizedCard.dart';
 import 'package:flutter/material.dart';
 
 class ResultsPage extends StatelessWidget {
-
-  ResultsPage({@required this.bmiResult, @required this.resultText, @required this.interpretation});
+  ResultsPage(
+      {@required this.bmiResult,
+      @required this.resultText,
+      @required this.interpretation});
   final String bmiResult;
   final String resultText;
   final String interpretation;
@@ -52,11 +54,11 @@ class ResultsPage extends StatelessWidget {
                         ),
                         Padding(
                           padding: EdgeInsets.all(20.0),
-                          child:Text(
-                          interpretation,
-                          textAlign: TextAlign.center,
-                          style: kBodyTextStyle,
-                        ),
+                          child: Text(
+                            interpretation,
+                            textAlign: TextAlign.center,
+                            style: kBodyTextStyle,
+                          ),
                         ),
                       ],
                     ),

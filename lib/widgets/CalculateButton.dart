@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:bodyx/constants.dart';
+
 class CalculateButton extends StatelessWidget {
   CalculateButton({this.label, this.doOnTap});
 

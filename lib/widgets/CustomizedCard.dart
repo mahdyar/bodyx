@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:bodyx/constants.dart';
 
-
 class CustomizedCard extends StatelessWidget {
   CustomizedCard({this.cardChild, this.color, this.doOnPress});
 
